@@ -1,9 +1,3 @@
----
-output:
-  word_document: default
-  html_document: default
-  pdf_document: default
----
 ## CodeBook: Data Science Specialization course series: Getting and Cleaning Data Course Project
 
 ### Original raw data sets: Human Activity Recognition Using Smartphones Dataset Version 1.0:
