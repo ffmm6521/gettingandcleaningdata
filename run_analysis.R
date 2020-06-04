@@ -50,7 +50,7 @@ xtest <- read.table(paste0(testdir, "X_test.txt"), col.names = features)
 subjecttest <- read.table(paste0(testdir, "subject_test.txt"),col.names= c('subject'))
 ytest <- read.table(paste0(testdir, "y_test.txt"), col.names = "activitycode")
 
-## Binding train and test datasets
+## Binding train and test data sets
 binded <- cbind(rbind(subjecttrain, subjecttest), rbind(ytrain, ytest), rbind(xtrain, xtest))
 
 ## Getting the mean and standard deviation columns 
